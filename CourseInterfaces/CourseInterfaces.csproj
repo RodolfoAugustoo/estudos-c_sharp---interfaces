@@ -6,7 +6,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\Enuns\" />
+    <Compile Remove="Entities\Enuns\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Entities\Enuns\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Entities\Enuns\**" />
   </ItemGroup>
 
 </Project>
